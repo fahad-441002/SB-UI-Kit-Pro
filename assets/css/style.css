@@ -1,0 +1,239 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.navbar-brand {
+	font-weight: 600;
+}
+
+.navbar-toggler:focus {
+	text-decoration: none;
+	box-shadow: 0 0 0 0.25rem;
+}
+
+.navbar-toggler-icon {
+	width: 24px;
+	height: 24px;
+}
+
+nav {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+@media (max-width:991px) {
+
+	nav {
+		padding: 28px 0px !important;
+	}
+}
+
+.nav-link {
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.55);
+}
+
+.navbar-collapse {
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+
+.chev-icon {
+	width: 7px;
+}
+
+.header-bg {
+	background-color: #0061f2 !important;
+	background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+}
+
+.mb-40 {
+	margin-bottom: 40px !important;
+}
+
+.color-p {
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+.fnt-14{
+	font-size: 14px;
+}
+@media (min-width: 992px) {
+	.instag{
+		border-left: 1px solid #c5ccd6;
+	}
+}
+.iphone {
+	border-radius: 50px;
+	border: 3px solid black;
+	width: 258px;
+	height: 520px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: -25px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+ @media (max-width: 991px) {
+	.phone-height{
+		height: 343px;
+	}	
+ }
+
+.buy-btn {
+	padding: 9px 14px !important;
+	border-radius: 5px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.bg-gradient-primary{
+	background-color: #0061f2 !important;
+    background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+
+.drp1{
+	background-color: transparent !important;
+}
+@media (min-width: 992px){
+	.buy-btn {
+		margin-left: 90px;
+	}	
+}
+
+.pt-128 {
+	padding: 128px 0;
+}
+
+.svg-bottom svg {
+	width: 100%;
+	height: 3rem;
+	z-index: -1;
+}
+
+.svg-bottom {
+	padding-top: 2rem !important;
+	width: 100%;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+
+@media (max-width: 1199px) {
+	.svg-bottom {
+		padding-top: 1.5rem;
+	}
+
+	.svg-bottom svg {
+		height: 2.5rem;
+	}
+}
+
+.my-20 {
+	margin-top: 96px;
+	margin-bottom: 96px;
+}
+
+.py-20 {
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+.fnt-23 {
+	font-size: 23px;
+}
+.card-img{
+	width: 64px;
+	height: 64px;
+	border-radius: 100%;
+}
+.bg-clr1{
+    background-color: rgba( 218, 239, 237, 1) !important;
+}
+.bg-clr2{
+    background-color: rgba( 241, 224, 227, 1) !important;
+}
+.bg-clr3{
+    background-color: rgba( 242, 238, 227, 1) !important;
+}
+.bg-clr4{
+    background-color: rgba( 228, 221, 247, 1) !important;
+}
+.bg-clr5{
+    background-color: rgba( 218, 231, 251, 1) !important;
+}
+.bg-clr6{
+    background-color: rgba( 243, 231, 227, 1) !important;
+}
+
+.card-hover .card {
+	box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+	transition: 300ms;
+}
+
+.card-hover .card:hover {
+	transform: translateY(-0.3333333333rem);
+	box-shadow: 0 0.5rem 2rem 0 rgb(33 40 50 / 25%);
+}
+
+.social {
+	color: #a6a8aa !important;
+}
+
+h6, h5 {
+	font-weight: 700;
+}
+
+footer, .text-color a {
+	color: rgba(255, 255, 255, 0.6) !important;
+}
+
+footer hr {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.py-30 {
+	padding: 96px 0 40px;
+}
+
+.wave2 {
+	position: absolute;
+	top: 0;
+}
+
+
+.svg-top svg {
+	width: 100%;
+	height: 3rem;
+	z-index: -1;
+}
+
+.svg-top {
+	padding-bottom: 2rem !important;
+	width: 100%;
+	position: absolute;
+	top: -35px;
+	left: 0;
+}
+
+@media (max-width: 1199px) {
+	.svg-top {
+		padding-bottom: 1.5rem;
+	}
+
+	.svg-top svg {
+		height: 2.5rem;
+	}
+}
+.copy , .copy a{
+	font-size: 14px;
+}
