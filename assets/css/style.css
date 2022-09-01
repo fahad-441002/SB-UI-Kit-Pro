@@ -7,6 +7,18 @@ body {
 	font-family: sans-serif;
 }
 
+.ml-mr-20 {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+@media (max-width: 1199px) {
+	.ml-mr-20 {
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+}
+
 .navbar-brand {
 	font-weight: 600;
 }
@@ -59,14 +71,17 @@ nav {
 .color-p {
 	color: rgba(255, 255, 255, 0.5) !important;
 }
-.fnt-14{
+
+.fnt-14 {
 	font-size: 14px;
 }
+
 @media (min-width: 992px) {
-	.instag{
+	.instag {
 		border-left: 1px solid #c5ccd6;
 	}
 }
+
 .iphone {
 	border-radius: 50px;
 	border: 3px solid black;
@@ -80,11 +95,21 @@ nav {
 	overflow: hidden;
 }
 
- @media (max-width: 991px) {
-	.phone-height{
+.scr-phone{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.portrait{
+	z-index: 1;
+}
+
+@media (max-width: 991px) {
+	.phone-height {
 		height: 343px;
-	}	
- }
+	}
+}
 
 .buy-btn {
 	padding: 9px 14px !important;
@@ -93,25 +118,76 @@ nav {
 	font-size: 14px;
 }
 
-.bg-gradient-primary{
+.bg-gradient-primary {
 	background-color: #0061f2 !important;
-    background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+	background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
 	width: 80px;
 	height: 80px;
 	border-radius: 100%;
 }
 
-.drp1{
+.mega-menu{
+	z-index: 10;
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: flex;
+	width: 50%;
+	border-radius: 10px;
+}
+
+.fnt-14 , .fnt-14 a , .menu-tem{
+	font-size: 14px;
+}
+
+.menu-tem{
+	margin: 10px 0;
+}
+
+.menu-tem a{
+	color: black;
+	text-decoration: none;
+}
+
+.p-40{
+	padding: 40px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 60px;
+}
+.menu-heading{
+	font-size: 12px;
+	font-weight: 800;
+}
+
+.sky-bg-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.megamenu-img{
+	background-color: rgba(0,97,242,.7);
+	width: 300px;
+}
+
+.drp1 {
 	background-color: transparent !important;
 }
-@media (min-width: 992px){
+
+@media (min-width: 992px) {
 	.buy-btn {
 		margin-left: 90px;
-	}	
+	}
 }
 
 .pt-128 {
-	padding: 128px 0;
+	padding: 100px 0;
 }
 
 .svg-bottom svg {
@@ -138,9 +214,20 @@ nav {
 	}
 }
 
+.mt-96{
+	margin-top: 96px !important;
+}
+
 .my-20 {
 	margin-top: 96px;
 	margin-bottom: 96px;
+}
+
+@media (max-width: 991px) {
+	.my-20 {
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}
 }
 
 .py-20 {
@@ -151,28 +238,35 @@ nav {
 .fnt-23 {
 	font-size: 23px;
 }
-.card-img{
+
+.card-img {
 	width: 64px;
 	height: 64px;
 	border-radius: 100%;
 }
-.bg-clr1{
-    background-color: rgba( 218, 239, 237, 1) !important;
+
+.bg-clr1 {
+	background-color: rgba(218, 239, 237, 1) !important;
 }
-.bg-clr2{
-    background-color: rgba( 241, 224, 227, 1) !important;
+
+.bg-clr2 {
+	background-color: rgba(241, 224, 227, 1) !important;
 }
-.bg-clr3{
-    background-color: rgba( 242, 238, 227, 1) !important;
+
+.bg-clr3 {
+	background-color: rgba(242, 238, 227, 1) !important;
 }
-.bg-clr4{
-    background-color: rgba( 228, 221, 247, 1) !important;
+
+.bg-clr4 {
+	background-color: rgba(228, 221, 247, 1) !important;
 }
-.bg-clr5{
-    background-color: rgba( 218, 231, 251, 1) !important;
+
+.bg-clr5 {
+	background-color: rgba(218, 231, 251, 1) !important;
 }
-.bg-clr6{
-    background-color: rgba( 243, 231, 227, 1) !important;
+
+.bg-clr6 {
+	background-color: rgba(243, 231, 227, 1) !important;
 }
 
 .card-hover .card {
@@ -234,6 +328,7 @@ footer hr {
 		height: 2.5rem;
 	}
 }
-.copy , .copy a{
+
+.copy, .copy a {
 	font-size: 14px;
 }
